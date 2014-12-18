@@ -32,7 +32,7 @@ LOGGING = {
         'logfile': {
             'level': 'ERROR',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': 'django_gizwits_site.log',
+            'filename': 'django.log',
             'maxBytes': 50000,
             'formatter': 'standard',
         },
